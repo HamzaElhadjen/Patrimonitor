@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+runs/
+*.pt
+weights/
+crack_segmentation_dataset/
+dataset_synthetique/
+test/
+train/
+val/
+*.jpg
+*.png

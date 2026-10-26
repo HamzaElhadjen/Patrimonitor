@@ -1,0 +1,14 @@
+# Fichier: patrimonitor_data.yaml
+# Configuration du Dataset PatriMonitor v2 (Clôture Sprint 0)
+
+# Chemin ABSOLU vers le dossier racine du dataset
+path: C:\Users\hamza\OneDrive\Bureau\italy project\crack_segmentation_dataset
+
+# Sous-dossiers relatifs au chemin ci-dessus (ne pas mettre de slash au début)
+train: train\images   # Photos pour l'apprentissage
+val:   test\images    # Photos pour la validation PENDANT l'entraînement (pour l'IoU)
+test:  test\images    # Optionnel, pour les tests finaux post-entraînement
+
+# Configuration des classes
+names:
+  0: crack  # Classe unique : fissure

@@ -1,0 +1,9 @@
+Python 3.11
+ultralytics
+opencv-python
+numpy
+pyvista
+pyvistaqt
+PyQt5
+scikit-image
+pytest
